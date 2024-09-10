@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>글쓰기</title>
+    <link rel="stylesheet" href="css/write.css" />
+  </head>
+  <body>
+    <form id="write-form">
+      <h1>🎁 물건 등록 🎁</h1>
+      <div>
+        <label for="image">📷 이미지</label>
+        <input type="file" id="image" name="image" />
+      </div>
+      <div>
+        <label for="title">✨ 제목</label> <input id="title" name="title" />
+      </div>
+      <div>
+        <label for="price">💰 가격</label>
+        <input type="number" id="price" name="price" />
+      </div>
+      <div>
+        <label for="description">📝 설명</label>
+        <input id="description" name="description" />
+      </div>
+      <div>
+        <label for="place">📍 장소</label> <input id="place" name="place" />
+      </div>
+      <div><button type="submit">물건 등록</button></div>
+    </form>
+
+    <script src="write.js"></script>
+  </body>
+</html>
