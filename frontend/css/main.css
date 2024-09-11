@@ -7,7 +7,6 @@ main {
   align-items: center;
   border-bottom: 1px solid #ededef;
   padding: 20px 0 20px 0;
-  animation: moving-item-list 2s ease-in-out;
 }
 
 @keyframes moving-item-list {
